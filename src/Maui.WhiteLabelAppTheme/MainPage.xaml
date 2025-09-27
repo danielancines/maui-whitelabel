@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Maui.WhiteLabelAppTheme"
+             BackgroundColor="{AppThemeBinding Light={StaticResource BackgroundColor}, Dark={StaticResource BackgroundColorDark}}"
+             Shell.NavBarIsVisible="False"
+             x:Class="Maui.WhiteLabelAppTheme.MainPage">
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0"
+                             Spacing="8">
+            <HorizontalStackLayout HorizontalOptions="End"
+                                   Spacing="8">
+                <Button x:Name="BThemeButton"
+                        Text="B Theme"
+                        Clicked="BThemeButton_OnClicked" />
+                <Button x:Name="NThemeButton"
+                        Text="N Theme"
+                        Clicked="NThemeButton_OnClicked" />
+                <Button x:Name="LightModeButton"
+                        Text="{x:Static local:FontIcons.Sun}"
+                        FontFamily="FontAwesomeSolid"
+                        Clicked="LightModeButton_OnClicked" />
+                <Button x:Name="DarkModeButton"
+                        Text="{x:Static local:FontIcons.Moon}"
+                        FontFamily="FontAwesomeSolid"
+                        Clicked="DarkModeButton_OnClicked" />
+            </HorizontalStackLayout>
+            <Label Text="Welcome to Maui App Theme"
+                   Style="{StaticResource Headline}" />
+            <Label Text="Name" />
+            <Entry />
+            <Label Text="Last Name" />
+            <Entry />
+            <Button x:Name="CounterBtn"
+                    Text="Action Button"
+                    HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
