@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui.WhiteLabelAppTheme", "Maui.WhiteLabelAppTheme\Maui.WhiteLabelAppTheme.csproj", "{BD14EF0E-A10C-46AE-AE02-FEB2991174D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui.WhiteLabelAppTheme.Tests", "Maui.WhiteLabelAppTheme.Tests\Maui.WhiteLabelAppTheme.Tests.csproj", "{C23FB868-AADA-4CD8-9325-9CF31A6AF15B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{BD14EF0E-A10C-46AE-AE02-FEB2991174D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD14EF0E-A10C-46AE-AE02-FEB2991174D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD14EF0E-A10C-46AE-AE02-FEB2991174D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23FB868-AADA-4CD8-9325-9CF31A6AF15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23FB868-AADA-4CD8-9325-9CF31A6AF15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23FB868-AADA-4CD8-9325-9CF31A6AF15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23FB868-AADA-4CD8-9325-9CF31A6AF15B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
