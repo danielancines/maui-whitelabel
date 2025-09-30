@@ -19,10 +19,12 @@
                         Clicked="NThemeButton_OnClicked" />
                 <Button x:Name="LightModeButton"
                         Text="{x:Static local:FontIcons.Sun}"
+                        FontSize="24"
                         FontFamily="FontAwesomeSolid"
                         Clicked="LightModeButton_OnClicked" />
                 <Button x:Name="DarkModeButton"
                         Text="{x:Static local:FontIcons.Moon}"
+                        FontSize="24"
                         FontFamily="FontAwesomeSolid"
                         Clicked="DarkModeButton_OnClicked" />
             </HorizontalStackLayout>

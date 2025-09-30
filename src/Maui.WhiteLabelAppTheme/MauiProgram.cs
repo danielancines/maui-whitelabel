@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Maui.WhiteLabelAppTheme.Services;
+using Microsoft.Extensions.Logging;
 
 namespace Maui.WhiteLabelAppTheme;
 
@@ -19,6 +20,8 @@ public static class MauiProgram
 #if DEBUG
         builder.Logging.AddDebug();
 #endif
+        builder.Services.AddScoped<MainPage>();
+        builder.Services.AddScoped<IVisualService, VisualService>();
 
         return builder.Build();
     }
